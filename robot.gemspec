@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "robot/version"
+require "main_robot/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "robot"
-  spec.version       = Robot::VERSION
+  spec.version       = MainRobot::VERSION
   spec.authors       = ["Vahdet Pervan"]
   spec.email         = ["veeuoh@hotmail.co.uk"]
 
   spec.summary       = 'Robot on a table'
   spec.description   = 'A robot is placed on a 5x5 grid and cannot go outside of the grid if an invalid command is given.'
-  spec.homepage      = "Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/vahdet-91/main_robot"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

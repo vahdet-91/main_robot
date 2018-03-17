@@ -1,6 +1,6 @@
-RSpec.describe Robot do
+RSpec.describe MainRobot do
   it "has a version number" do
-    expect(Robot::VERSION).not_to be nil
+    expect(MainRobot::VERSION).not_to be nil
   end
 
   it "does something useful" do

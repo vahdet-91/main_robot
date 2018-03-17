@@ -1,5 +1,8 @@
-require "robot/version"
+require "main_robot/version"
 
-module Robot
+module MainRobot
   # Your code goes here...
+  def self.main
+    puts 'Hello'
+  end
 end
